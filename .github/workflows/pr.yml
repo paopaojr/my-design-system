@@ -18,6 +18,6 @@ jobs:
       - name: Use yarn 2
         run: yarn set version berry
       - name: Install dependencies
-        run: yarn install --frozen-lock
+        run: yarn install
       - name: Check
         run: yarn dlx ts-node ./bin/check.ts
