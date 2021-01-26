@@ -1,0 +1,23 @@
+name: PR
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+      - name: Use yarn 2
+        run: yarn set version berry
+      - name: Install dependencies
+        run: yarn install --frozen-lock
+      - name: Check
+        run: yarn dlx ts-node ./bin/check.ts

@@ -1,0 +1,32 @@
+{
+  "include": ["./**/*"],
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@lib/*": ["lib/*"],
+      "*": ["types/*", "*"]
+    },
+    "sourceMap": true,
+    "target": "es6",
+    "module": "commonjs",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom",
+      "es2015",
+      "esnext.asynciterable",
+      "es2020"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["dist", ".webpack", "node_modules", ".serverless", "layers"]
+}

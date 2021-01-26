@@ -1142,7 +1142,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@paopaojr/xlsx@1.1.1, @paopaojr/xlsx@workspace:packages/xlsx":
+"@paopaojr/xlsx@1.1.3, @paopaojr/xlsx@workspace:packages/xlsx":
   version: 0.0.0-use.local
   resolution: "@paopaojr/xlsx@workspace:packages/xlsx"
   dependencies:
@@ -1174,7 +1174,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>= 8":
+"@types/node@npm:*, @types/node@npm:>= 8, @types/node@npm:^14.14.22":
   version: 14.14.22
   resolution: "@types/node@npm:14.14.22"
   checksum: e46e32685b4d0261779c13c10ba3ff220cfa714b5c12f8f571fd52cc309546bdbc8ffc86cbad20559ad88e7b17e66fc51c98b067d8c3766597092c05df157b9b
@@ -5152,6 +5152,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-design-system@workspace:."
   dependencies:
+    "@types/node": ^14.14.22
     lerna: ^3.22.1
     typescript: ^4.1.3
   languageName: unknown
@@ -5758,7 +5759,7 @@ __metadata:
   resolution: "pao-payment@workspace:services/payment"
   dependencies:
     "@paopaojr/util": 1.1.0
-    "@paopaojr/xlsx": 1.1.1
+    "@paopaojr/xlsx": 1.1.3
     axios: 0.21.0
     chalk: 1.1.0
     netlify: 4.9.0
