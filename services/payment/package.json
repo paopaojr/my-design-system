@@ -5,7 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@paopaojr/util": "1.0.16",
+    "@paopaojr/util": "1.1.0",
+    "@paopaojr/xlsx": "1.1.1",
     "axios": "0.21.0",
     "chalk": "1.1.0",
     "netlify": "4.9.0",
