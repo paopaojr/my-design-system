@@ -6,5 +6,6 @@
   "dependencies": {
     "xlsx": "0.16.9"
   },
-  "gitHead": "cb5c179d253f1acb7d0e5fb8f2fc614e1d895923"
+  "repository": "git://github.com/paopaojr/my-design-system.git",
+  "gitHead": "51182f4865ab22a56f6bcf602be335d717d49f66"
 }
