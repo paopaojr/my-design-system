@@ -1,6 +1,5 @@
 {
   "name": "pao-xlsx",
-  "private": true,
   "version": "1.0.9",
   "main": "index.js",
   "license": "MIT",

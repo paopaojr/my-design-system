@@ -1,9 +1,16 @@
 {
   "name": "pao-util",
-  "private": true,
   "version": "1.0.5",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/paopaojr/my-design-system.git",
+    "directory": "packages/pao-util"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "uuid": "8.3.1"
   },

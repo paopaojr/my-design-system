@@ -7,13 +7,6 @@
       "packages/*"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com:paopaojr/my-design-system.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {},
   "version": "1.0.0",
   "main": "index.js",
