@@ -3,8 +3,16 @@
   "version": "1.0.11",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/paopaojr/my-design-system.git",
+    "directory": "packages/xlsx"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "xlsx": "0.16.9"
   },
-  "gitHead": "c7ad1a706fcc300fad68bc301efd39a2f9716826"
+  "gitHead": "9445cf94e21bf44cab5039d4b47e649bc347d3f7"
 }
