@@ -1,7 +1,7 @@
-name: PR
+name: master
 
 on:
-  pull_request:
+  push:
     branches:
       - master
 
@@ -19,5 +19,3 @@ jobs:
         run: yarn set version berry
       - name: Install dependencies
         run: yarn install
-      - name: Check
-        run: yarn dlx ts-node ./bin/check.ts
