@@ -5,10 +5,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@paopaojr/util": "1.0.16",
     "axios": "0.21.0",
     "chalk": "1.1.0",
     "netlify": "4.9.0",
-    "pao-xlsx": "1.0.12",
     "pretty-format": "^20.0.3"
   }
 }

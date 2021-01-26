@@ -23,12 +23,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:."
       },
       {
-        "name": "pao-util",
-        "reference": "workspace:packages/pao-util"
+        "name": "@paopaojr/util",
+        "reference": "workspace:packages/util"
       },
       {
-        "name": "pao-xlsx",
-        "reference": "workspace:packages/pao-xlsx"
+        "name": "@paopaojr/pao-xlsx",
+        "reference": "workspace:packages/xlsx"
       },
       {
         "name": "pao-order",
@@ -42,11 +42,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
+      ["@paopaojr/pao-xlsx", ["workspace:packages/xlsx"]],
+      ["@paopaojr/util", ["workspace:packages/util"]],
       ["my-design-system", ["workspace:."]],
       ["pao-order", ["workspace:services/order"]],
-      ["pao-payment", ["workspace:services/payment"]],
-      ["pao-util", ["workspace:packages/pao-util"]],
-      ["pao-xlsx", ["workspace:packages/pao-xlsx"]]
+      ["pao-payment", ["workspace:services/payment"]]
     ],
     "fallbackPool": [
     ],
@@ -1287,6 +1287,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:14.14.22"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["@paopaojr/pao-xlsx", [
+        ["workspace:packages/xlsx", {
+          "packageLocation": "./packages/xlsx/",
+          "packageDependencies": [
+            ["@paopaojr/pao-xlsx", "workspace:packages/xlsx"],
+            ["xlsx", "npm:0.16.9"]
+          ],
+          "linkType": "SOFT",
+        }]
+      ]],
+      ["@paopaojr/util", [
+        ["workspace:packages/util", {
+          "packageLocation": "./packages/util/",
+          "packageDependencies": [
+            ["@paopaojr/util", "workspace:packages/util"],
+            ["@types/uuid", "npm:8.3.0"],
+            ["uuid", "npm:8.3.1"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["@types/glob", [
@@ -6470,32 +6491,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./services/payment/",
           "packageDependencies": [
             ["pao-payment", "workspace:services/payment"],
+            ["@paopaojr/util", "workspace:packages/util"],
             ["axios", "npm:0.21.0"],
             ["chalk", "npm:1.1.0"],
             ["netlify", "npm:4.9.0"],
-            ["pao-xlsx", "workspace:packages/pao-xlsx"],
             ["pretty-format", "npm:20.0.3"]
-          ],
-          "linkType": "SOFT",
-        }]
-      ]],
-      ["pao-util", [
-        ["workspace:packages/pao-util", {
-          "packageLocation": "./packages/pao-util/",
-          "packageDependencies": [
-            ["pao-util", "workspace:packages/pao-util"],
-            ["@types/uuid", "npm:8.3.0"],
-            ["uuid", "npm:8.3.1"]
-          ],
-          "linkType": "SOFT",
-        }]
-      ]],
-      ["pao-xlsx", [
-        ["workspace:packages/pao-xlsx", {
-          "packageLocation": "./packages/pao-xlsx/",
-          "packageDependencies": [
-            ["pao-xlsx", "workspace:packages/pao-xlsx"],
-            ["xlsx", "npm:0.16.9"]
           ],
           "linkType": "SOFT",
         }]
