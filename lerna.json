@@ -1,11 +1,9 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "version": "1.0.15",
   "command": {
     "publish": {
-      "registry": "https://npm.pkg.github.com/paopaojr"
+      "registry": "https://npm.pkg.github.com/@paopaojr"
     }
   }
 }
