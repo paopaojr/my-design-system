@@ -1,4 +1,2 @@
 import axios from "axios";
-import { order } from "pao-order";
-
-order();
+import {} from "pao-xlsx";

@@ -24,11 +24,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       },
       {
         "name": "pao-util",
-        "reference": "workspace:packages/util"
+        "reference": "workspace:packages/pao-util"
       },
       {
         "name": "pao-xlsx",
-        "reference": "workspace:packages/xlsx"
+        "reference": "workspace:packages/pao-xlsx"
       },
       {
         "name": "pao-order",
@@ -45,8 +45,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ["my-design-system", ["workspace:."]],
       ["pao-order", ["workspace:services/order"]],
       ["pao-payment", ["workspace:services/payment"]],
-      ["pao-util", ["workspace:packages/util"]],
-      ["pao-xlsx", ["workspace:packages/xlsx"]]
+      ["pao-util", ["workspace:packages/pao-util"]],
+      ["pao-xlsx", ["workspace:packages/pao-xlsx"]]
     ],
     "fallbackPool": [
     ],
@@ -6473,17 +6473,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["axios", "npm:0.21.0"],
             ["chalk", "npm:1.1.0"],
             ["netlify", "npm:4.9.0"],
-            ["pao-order", "workspace:services/order"],
+            ["pao-xlsx", "workspace:packages/pao-xlsx"],
             ["pretty-format", "npm:20.0.3"]
           ],
           "linkType": "SOFT",
         }]
       ]],
       ["pao-util", [
-        ["workspace:packages/util", {
-          "packageLocation": "./packages/util/",
+        ["workspace:packages/pao-util", {
+          "packageLocation": "./packages/pao-util/",
           "packageDependencies": [
-            ["pao-util", "workspace:packages/util"],
+            ["pao-util", "workspace:packages/pao-util"],
             ["@types/uuid", "npm:8.3.0"],
             ["uuid", "npm:8.3.1"]
           ],
@@ -6491,10 +6491,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["pao-xlsx", [
-        ["workspace:packages/xlsx", {
-          "packageLocation": "./packages/xlsx/",
+        ["workspace:packages/pao-xlsx", {
+          "packageLocation": "./packages/pao-xlsx/",
           "packageDependencies": [
-            ["pao-xlsx", "workspace:packages/xlsx"],
+            ["pao-xlsx", "workspace:packages/pao-xlsx"],
             ["xlsx", "npm:0.16.9"]
           ],
           "linkType": "SOFT",

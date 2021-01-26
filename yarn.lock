@@ -5727,7 +5727,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pao-order@1.0.1, pao-order@workspace:services/order":
+"pao-order@workspace:services/order":
   version: 0.0.0-use.local
   resolution: "pao-order@workspace:services/order"
   dependencies:
@@ -5743,23 +5743,23 @@ __metadata:
     axios: 0.21.0
     chalk: 1.1.0
     netlify: 4.9.0
-    pao-order: 1.0.1
+    pao-xlsx: 1.0.12
     pretty-format: ^20.0.3
   languageName: unknown
   linkType: soft
 
-"pao-util@workspace:packages/util":
+"pao-util@workspace:packages/pao-util":
   version: 0.0.0-use.local
-  resolution: "pao-util@workspace:packages/util"
+  resolution: "pao-util@workspace:packages/pao-util"
   dependencies:
     "@types/uuid": 8.3.0
     uuid: 8.3.1
   languageName: unknown
   linkType: soft
 
-"pao-xlsx@workspace:packages/xlsx":
+"pao-xlsx@1.0.12, pao-xlsx@workspace:packages/pao-xlsx":
   version: 0.0.0-use.local
-  resolution: "pao-xlsx@workspace:packages/xlsx"
+  resolution: "pao-xlsx@workspace:packages/pao-xlsx"
   dependencies:
     xlsx: 0.16.9
   languageName: unknown
