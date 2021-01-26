@@ -5,7 +5,7 @@ const execAsync = promisify(exec);
 
 async function run() {
   const output = await execAsync(
-    "npx lerna ls --since HEAD --json --loglevel=silent"
+    "npx lerna ls --since origin/master --json --loglevel=silent"
   );
   const changedPackages = JSON.parse(output.stdout);
 
