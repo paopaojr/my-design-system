@@ -1,0 +1,14 @@
+{
+  "name": "pao-payment",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.21.0",
+    "chalk": "1.1.0",
+    "netlify": "4.9.0",
+    "pao-order": "1.0.1",
+    "pretty-format": "^20.0.3"
+  }
+}
