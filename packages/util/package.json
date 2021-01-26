@@ -6,7 +6,7 @@
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/paopaojr/my-design-system.git",
-    "directory": "packages/pao-util"
+    "directory": "packages/util"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -16,5 +16,6 @@
   },
   "devDependencies": {
     "@types/uuid": "8.3.0"
-  }
+  },
+  "gitHead": "c7ad1a706fcc300fad68bc301efd39a2f9716826"
 }
