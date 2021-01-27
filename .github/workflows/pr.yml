@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - master
-    types: ["synchronize", "open"]
+    types: ["synchronize", "opened"]
 
 jobs:
   verify:
