@@ -19,3 +19,5 @@ jobs:
         run: yarn set version berry
       - name: Install dependencies
         run: yarn install
+      - name: Publish
+          run: lerna publish --yes --no-push 
