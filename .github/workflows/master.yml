@@ -24,4 +24,4 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Publish
-        run: npx lerna publish --yes --no-push
+        run: yarn dlx lerna publish --no-push --yes
