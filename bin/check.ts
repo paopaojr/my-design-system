@@ -23,7 +23,9 @@ async function run() {
   }
 
   if (errors.length) {
-    throw new Error(errors.join("\n"));
+    console.error(errors.join("\n"));
+
+    process.exit(1);
   }
 }
 
