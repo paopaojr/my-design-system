@@ -26,4 +26,4 @@ jobs:
       - name: Publish
         run: |
           git reset --hard
-          yarn dlx lerna publish --no-push --yes
+          yarn dlx lerna publish from-package --no-push --yes
