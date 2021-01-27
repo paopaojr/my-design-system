@@ -15,9 +15,13 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: "12.x"
+      - uses: ferluisxd/create-npmrc@3
+        with:
+          org_name: paopaojr
+          auth_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Use yarn 2
         run: yarn set version berry
       - name: Install dependencies
         run: yarn install
       - name: Publish
-        run: npx lerna publish --yes --no-push
+        run: yarn dlx lerna publish --no-push --yes
