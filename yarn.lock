@@ -1010,10 +1010,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^3.2.1":
-  version: 3.2.1
-  resolution: "@octokit/openapi-types@npm:3.2.1"
-  checksum: 486ae33989f17de8ce8168563fc19a7734ff1cfaeaa0260c18e878786f9bf4d3ff6f2a50d4b2f717d399b58e93ac25a111e8087f9360e0c4b368004592b20e42
+"@octokit/openapi-types@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@octokit/openapi-types@npm:3.3.0"
+  checksum: d787ef625f71951f6553da62afe06ee59a2c7e77d43feec687d580fa19963b2804707ec751419cf3ca8fe41d1c739a43344dd84275aec06501a17e9b7e731829
   languageName: node
   linkType: hard
 
@@ -1124,12 +1124,12 @@ __metadata:
   linkType: hard
 
 "@octokit/types@npm:^6.0.3":
-  version: 6.5.3
-  resolution: "@octokit/types@npm:6.5.3"
+  version: 6.6.0
+  resolution: "@octokit/types@npm:6.6.0"
   dependencies:
-    "@octokit/openapi-types": ^3.2.1
+    "@octokit/openapi-types": ^3.3.0
     "@types/node": ">= 8"
-  checksum: ce87a41f76066359a49758ff0bcefaae0c2e1e1572d921718255de07b161587869ea2dde5c34e6894974ac335326f858ccc35c8b80f84baeaa0433df583d8714
+  checksum: c7d1464ab5aaeeba4b75fac382930dd94188f589247b69a8ace3b8c18cf85f0fd3cb30bec3d1f52a4df4abc7074617d5b8b372f91a537e7e99590a11aa7092c2
   languageName: node
   linkType: hard
 
@@ -3516,11 +3516,11 @@ __metadata:
   linkType: hard
 
 "git-url-parse@npm:^11.1.2":
-  version: 11.4.3
-  resolution: "git-url-parse@npm:11.4.3"
+  version: 11.4.4
+  resolution: "git-url-parse@npm:11.4.4"
   dependencies:
     git-up: ^4.0.0
-  checksum: 789393fff8f29247c14902e8aaeef6b7106297dacc3789ed52e63e3d65c776d21e9e283dc7945da09a4497038a9d4fc93d00db9d4d38a7b95935d05f1cc5d821
+  checksum: adf64775c530c2add666d0a93eeb1d2ebeb678588564f9c4d07f8880f1e089efc878a5c5701f31b3b105f38db1b86d6201bbcd4417c0d8eba368db1b4ac661e4
   languageName: node
   linkType: hard
 
