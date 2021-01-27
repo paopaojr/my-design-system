@@ -522,7 +522,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@lerna/child-process", "npm:3.16.5"],
             ["@octokit/plugin-enterprise-rest", "npm:6.0.1"],
             ["@octokit/rest", "npm:16.43.2"],
-            ["git-url-parse", "npm:11.4.3"],
+            ["git-url-parse", "npm:11.4.4"],
             ["npmlog", "npm:4.1.2"]
           ],
           "linkType": "HARD",
@@ -1129,7 +1129,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@octokit-auth-token-npm-2.4.5-91cd7149bb-4cd8ef3bc0.zip/node_modules/@octokit/auth-token/",
           "packageDependencies": [
             ["@octokit/auth-token", "npm:2.4.5"],
-            ["@octokit/types", "npm:6.5.3"]
+            ["@octokit/types", "npm:6.6.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1139,7 +1139,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@octokit-endpoint-npm-6.0.11-b00375a302-b2b0f6bb1d.zip/node_modules/@octokit/endpoint/",
           "packageDependencies": [
             ["@octokit/endpoint", "npm:6.0.11"],
-            ["@octokit/types", "npm:6.5.3"],
+            ["@octokit/types", "npm:6.6.0"],
             ["is-plain-object", "npm:5.0.0"],
             ["universal-user-agent", "npm:6.0.0"]
           ],
@@ -1147,10 +1147,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@octokit/openapi-types", [
-        ["npm:3.2.1", {
-          "packageLocation": "./.yarn/cache/@octokit-openapi-types-npm-3.2.1-f193ecfcd8-486ae33989.zip/node_modules/@octokit/openapi-types/",
+        ["npm:3.3.0", {
+          "packageLocation": "./.yarn/cache/@octokit-openapi-types-npm-3.3.0-c202865a17-d787ef625f.zip/node_modules/@octokit/openapi-types/",
           "packageDependencies": [
-            ["@octokit/openapi-types", "npm:3.2.1"]
+            ["@octokit/openapi-types", "npm:3.3.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1214,7 +1214,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@octokit/request", "npm:5.4.13"],
             ["@octokit/endpoint", "npm:6.0.11"],
             ["@octokit/request-error", "npm:2.0.5"],
-            ["@octokit/types", "npm:6.5.3"],
+            ["@octokit/types", "npm:6.6.0"],
             ["deprecation", "npm:2.3.1"],
             ["is-plain-object", "npm:5.0.0"],
             ["node-fetch", "npm:2.6.1"],
@@ -1239,7 +1239,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@octokit-request-error-npm-2.0.5-cfd366d8eb-0d3a3103a5.zip/node_modules/@octokit/request-error/",
           "packageDependencies": [
             ["@octokit/request-error", "npm:2.0.5"],
-            ["@octokit/types", "npm:6.5.3"],
+            ["@octokit/types", "npm:6.6.0"],
             ["deprecation", "npm:2.3.1"],
             ["once", "npm:1.4.0"]
           ],
@@ -1280,11 +1280,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:6.5.3", {
-          "packageLocation": "./.yarn/cache/@octokit-types-npm-6.5.3-7e44f758be-ce87a41f76.zip/node_modules/@octokit/types/",
+        ["npm:6.6.0", {
+          "packageLocation": "./.yarn/cache/@octokit-types-npm-6.6.0-4f0a5dfb5c-c7d1464ab5.zip/node_modules/@octokit/types/",
           "packageDependencies": [
-            ["@octokit/types", "npm:6.5.3"],
-            ["@octokit/openapi-types", "npm:3.2.1"],
+            ["@octokit/types", "npm:6.6.0"],
+            ["@octokit/openapi-types", "npm:3.3.0"],
             ["@types/node", "npm:14.14.22"]
           ],
           "linkType": "HARD",
@@ -4008,10 +4008,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["git-url-parse", [
-        ["npm:11.4.3", {
-          "packageLocation": "./.yarn/cache/git-url-parse-npm-11.4.3-7547a9e2f3-789393fff8.zip/node_modules/git-url-parse/",
+        ["npm:11.4.4", {
+          "packageLocation": "./.yarn/cache/git-url-parse-npm-11.4.4-4fb31e3403-adf64775c5.zip/node_modules/git-url-parse/",
           "packageDependencies": [
-            ["git-url-parse", "npm:11.4.3"],
+            ["git-url-parse", "npm:11.4.4"],
             ["git-up", "npm:4.0.2"]
           ],
           "linkType": "HARD",
