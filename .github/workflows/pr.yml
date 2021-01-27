@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  synchronize:
+    branches:
+      - master
 
 jobs:
   verify:
