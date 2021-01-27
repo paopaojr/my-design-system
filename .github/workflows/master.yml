@@ -24,4 +24,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Publish
-        run: yarn dlx lerna publish --no-push --yes
+        run: |
+          git reset --hard
+          yarn dlx lerna publish --no-push --yes
