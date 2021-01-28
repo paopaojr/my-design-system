@@ -1,7 +1,10 @@
 name: PR
 
 on:
-  push
+  pull_request:
+    branches:
+      - master
+    types: ["synchronize", "opened"]
 
 jobs:
   verify:
