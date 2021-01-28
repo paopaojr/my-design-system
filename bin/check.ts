@@ -8,10 +8,8 @@ async function run() {
     const output = await execAsync(
       "yarn dlx -q lerna ls --since origin/master --json --loglevel=silent"
     );
-    const changedPackages =
-      typeof output.stdout === "string"
-        ? JSON.parse(output.stdout)
-        : output.stdout;
+    console.log(output);
+    const changedPackages = JSON.parse(output.stdout);
 
     let errors = [];
 
