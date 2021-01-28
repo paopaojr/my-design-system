@@ -1,3 +1,5 @@
 import xlsx from "xlsx";
 
-console.log("test15");
+export function xlsxTest() {
+  console.log("test16");
+}

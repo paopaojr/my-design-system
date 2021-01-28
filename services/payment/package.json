@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@paopaojr/util": "1.1.1",
-    "@paopaojr/xlsx": "1.1.4",
+    "@paopaojr/xlsx": "1.1.5",
     "axios": "0.21.0",
     "chalk": "1.1.0",
     "netlify": "4.9.0",
