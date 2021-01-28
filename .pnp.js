@@ -1303,10 +1303,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@paopaojr/xlsx", [
-        ["npm:1.1.5::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.5%2Fa731acd947b152a2174d528d8a50117b7035f43fd2c3da3dac5968b111161b6e", {
-          "packageLocation": "./.yarn/cache/@paopaojr-xlsx-npm-1.1.5-c692e7d3c6-8fe131a9ba.zip/node_modules/@paopaojr/xlsx/",
+        ["npm:1.1.4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.4%2F4122ea0c71bc095e08b3686c8c8ea37f1a15543baa04af32e5394abb21317c90", {
+          "packageLocation": "./.yarn/cache/@paopaojr-xlsx-npm-1.1.4-927a5dcbda-4a3079c9af.zip/node_modules/@paopaojr/xlsx/",
           "packageDependencies": [
-            ["@paopaojr/xlsx", "npm:1.1.5::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.5%2Fa731acd947b152a2174d528d8a50117b7035f43fd2c3da3dac5968b111161b6e"],
+            ["@paopaojr/xlsx", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.4%2F4122ea0c71bc095e08b3686c8c8ea37f1a15543baa04af32e5394abb21317c90"],
             ["xlsx", "npm:0.16.9"]
           ],
           "linkType": "HARD",
@@ -6540,7 +6540,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["pao-payment", "workspace:services/payment"],
             ["@paopaojr/util", "workspace:packages/util"],
-            ["@paopaojr/xlsx", "npm:1.1.5::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.5%2Fa731acd947b152a2174d528d8a50117b7035f43fd2c3da3dac5968b111161b6e"],
+            ["@paopaojr/xlsx", "npm:1.1.4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.4%2F4122ea0c71bc095e08b3686c8c8ea37f1a15543baa04af32e5394abb21317c90"],
             ["axios", "npm:0.21.0"],
             ["chalk", "npm:1.1.0"],
             ["netlify", "npm:4.9.0"],

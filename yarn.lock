@@ -1142,12 +1142,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@paopaojr/xlsx@npm:1.1.5":
-  version: 1.1.5
-  resolution: "@paopaojr/xlsx@npm:1.1.5::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.5%2Fa731acd947b152a2174d528d8a50117b7035f43fd2c3da3dac5968b111161b6e"
+"@paopaojr/xlsx@npm:1.1.4":
+  version: 1.1.4
+  resolution: "@paopaojr/xlsx@npm:1.1.4::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40paopaojr%2Fxlsx%2F1.1.4%2F4122ea0c71bc095e08b3686c8c8ea37f1a15543baa04af32e5394abb21317c90"
   dependencies:
     xlsx: 0.16.9
-  checksum: 8fe131a9ba72be2091469ba5358bb88cead77772a934f497e8d9b284e9a29c54894875f84bdd43e90f78268fe4d773086f83371c2d431dbe2d2b7366d220fb8e
+  checksum: 4a3079c9af30d76bfbeddfdcebccbc6f3ea225374d8a66493ad50df2256f884400c530fd2fa5182860bebf961727d0a5e7b978f3e4ee79f9e4b9c3a6577b5943
   languageName: node
   linkType: hard
 
@@ -5797,7 +5797,7 @@ __metadata:
   resolution: "pao-payment@workspace:services/payment"
   dependencies:
     "@paopaojr/util": 1.1.1
-    "@paopaojr/xlsx": 1.1.5
+    "@paopaojr/xlsx": 1.1.4
     axios: 0.21.0
     chalk: 1.1.0
     netlify: 4.9.0
