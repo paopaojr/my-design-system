@@ -8,6 +8,7 @@ async function run() {
     const output = await execAsync(
       "yarn dlx -q lerna ls --since origin/master --json --loglevel=silent"
     );
+    console.log(output.stdout, output.stderr);
     const changedPackages = JSON.parse(output.stdout);
 
     let errors = [];
@@ -31,6 +32,8 @@ async function run() {
 
     process.exit(0);
   } catch (error) {
+    console.error(error);
+
     process.exit(1);
   }
 }
