@@ -27,6 +27,5 @@ jobs:
         run: yarn install
       - name: Publish
         run: |
-          git add --all
-          git commit -m 'update'
+          git reset --hard
           yarn dlx -q lerna publish from-package --no-push --yes
