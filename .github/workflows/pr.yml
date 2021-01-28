@@ -2,6 +2,8 @@ name: PR
 
 on:
   pull_request:
+    branches:
+      - master
     types: ["synchronize", "opened"]
 
 jobs:
@@ -20,7 +22,6 @@ jobs:
           auth_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Use yarn 2
         run: |
-          echo '${{ secrets.YARNRC }}' > .yarnrc.yml
           yarn set version berry
       - name: Install dependencies
         run: yarn install
