@@ -6,6 +6,6 @@
   "dependencies": {
     "xlsx": "0.16.9"
   },
-  "repository": "git://github.com/paopaojr/my-design-system.git",
-  "gitHead": "51182f4865ab22a56f6bcf602be335d717d49f66"
+  "repository": "git://github.com/paopaojr/monorepo-poc.git",
+  "gitHead": "a7871a1ad2f807296809c65ba34817e6bfc5095d"
 }
