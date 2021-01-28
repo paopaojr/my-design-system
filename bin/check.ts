@@ -8,12 +8,6 @@ async function run() {
     const output = await execAsync(
       "yarn dlx --quiet lerna ls --since origin/master --json --loglevel=silent"
     );
-    console.log(
-      output.stdout
-        .split("\n")
-        .filter((line) => !line.startsWith("::"))
-        .join("\n")
-    );
     const changedPackages = JSON.parse(
       output.stdout
         .split("\n")
