@@ -6,7 +6,7 @@ const execAsync = promisify(exec);
 async function run() {
   try {
     const output = await execAsync(
-      "yarn dlx -q lerna ls --since origin/master --json --loglevel=silent"
+      "yarn dlx --quiet lerna ls --since origin/master --json --loglevel=silent"
     );
     console.log(output);
     const changedPackages = JSON.parse(output.stdout);
