@@ -21,7 +21,9 @@ jobs:
           org_name: paopaojr
           auth_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Use yarn 2
-        run: yarn set version berry
+        run: |
+          echo '${{ secrets.YARNRC }}' > .yarnrc.yml
+          yarn set version berry
       - name: Install dependencies
         run: yarn install
       - name: Check
