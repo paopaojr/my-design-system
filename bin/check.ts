@@ -9,7 +9,7 @@ async function run() {
       "yarn dlx -q lerna ls --since origin/master --json --loglevel=silent"
     );
     console.log(output.stdout, output.stderr);
-    const changedPackages = JSON.parse(output.stdout);
+    const changedPackages = JSON.parse(output.stdout.trim());
 
     let errors = [];
 
