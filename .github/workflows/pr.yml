@@ -27,4 +27,4 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Check
-        run: yarn dlx ts-node ./bin/check.ts
+        run: yarn dlx -q ts-node ./bin/check.ts
