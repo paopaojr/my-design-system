@@ -11,6 +11,5 @@ jobs:
         with:
           fetch-depth: 0
       - name: Publish
-        if: steps.packagesChanged.outputs.changes != '[]'
         run: |
           echo ${{ github.head_ref }}
