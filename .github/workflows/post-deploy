@@ -1,0 +1,16 @@
+name: post-deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  post-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Publish
+        if: steps.packagesChanged.outputs.changes != '[]'
+        run: |
+          echo ${{ github.head_ref }}
